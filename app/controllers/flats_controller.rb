@@ -11,6 +11,7 @@ class FlatsController < ApplicationController
         lng: flat.longitude,
         info_window_html: render_to_string(partial: "info_window", locals: { flat: flat })
       }
+    end
   end
 
   # GET /flats/1 or /flats/1.json
